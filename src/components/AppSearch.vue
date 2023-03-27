@@ -6,7 +6,7 @@
 
 
 <template>
-<div class="select p-4 m-auto">
+<div class="select p-5 mx-5">
     <select class="form-select">
         <option selected></option>
         <option value="1">One</option>
