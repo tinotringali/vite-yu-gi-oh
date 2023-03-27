@@ -2,3 +2,8 @@
 @use './_partial/variables';
 // Import all of Bootstrap's CSS
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+body{
+    background-color: #d48f38;
+}
