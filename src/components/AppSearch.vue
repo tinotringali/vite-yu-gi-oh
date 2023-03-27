@@ -6,7 +6,7 @@
 
 
 <template>
-<div class="select p-5 mx-5">
+<div class="select p-5 m-auto">
     <select class="form-select">
         <option selected></option>
         <option value="1">One</option>
@@ -21,6 +21,6 @@
     width: 20%;
 }
 .select{
-    max-width: 1200px;
+    max-width: 1400px;
 }
 </style>
