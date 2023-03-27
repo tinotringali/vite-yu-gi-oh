@@ -10,10 +10,12 @@
 </script>
 
 <template>
-<article class="text-center">
+<article class="text-center mb-3">
     <div class="img"><img :src="img" alt=""></div>
-    <h4>{{ title }}</h4>
-    <p>{{ type }}</p>
+    <div class="infoCards">
+        <h5 class="fs-5 text-light py-2 text">{{ title }}</h5>
+        <p>{{ type }}</p>
+    </div>
 </article>
 </template>
 
@@ -21,4 +23,10 @@
 img{
     width: 100%;
 }
+
+.infoCards{
+    background-color: #d48f38;
+    height: 120px;
+}
+
 </style>
