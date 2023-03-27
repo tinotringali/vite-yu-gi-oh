@@ -1,20 +1,26 @@
 <script>
 
+import AppSearch from './AppSearch.vue';
+import AppCards from './AppCards.vue';
+
+
     export default {
-        name:'AppMain'
+        name:'AppMain',
+        components:{
+            AppSearch,
+            AppCards
+        }
     }
 
 </script>
 
 <template>
 <main>
-
+    <AppSearch />
+    <AppCards />
 </main>
 </template>
 
 <style lang="scss" scoped>
-main{
-    background-color: #d48f38;
-    height:100vh;
-}
+
 </style>
